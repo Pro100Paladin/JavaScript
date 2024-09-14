@@ -7,10 +7,10 @@
 
 console.log('Задание 2.');
 let userNumber = Number(prompt('Введите полученные деньги:'));
-let getSalary = (money) => { console.log(`Размер заработной платы за вычетом налогов равен ${money * 0.87} рублей`);};
+let getSalary = (money) => { console.log(`Размер заработной платы за вычетом налогов равен ${money * 0.87} рублей`); };
 
-if(isNaN(userNumber) == false){
+if (isNaN(userNumber) == false) {
     console.log(`Вы ввели ${userNumber}`);
     getSalary(userNumber);
-} else { alert('Введите цифры!');}
+} else { alert('Введите цифры!'); }
 

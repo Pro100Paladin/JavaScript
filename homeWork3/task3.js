@@ -12,5 +12,6 @@ const getMax = (num1, num2, num3) => { // 1 3 2
     let max = num1;
     if (num1 < num2) { max = num2; }
     if (max < num3) { max = num3; }
-    console.log(`Из чисел ${num1}, ${num2}, ${num3} максимальное число ${max}`);};
+    console.log(`Из чисел ${num1}, ${num2}, ${num3} максимальное число ${max}`);
+};
 getMax(userNumber1, userNumber2, userNumber3);

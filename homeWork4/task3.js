@@ -18,7 +18,7 @@ for (let i = 0; i < newArr.length; i++) {
   sum += newArr[i];
 }
 
-let minNumber = newArr[0]; 
+let minNumber = newArr[0];
 for (let i = 1; i < newArr.length; i++) {
   if (newArr[i] < minNumber) {
     minNumber = newArr[i];

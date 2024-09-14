@@ -20,10 +20,12 @@ console.log(`Вы ввели ${foCalc1} и ${foCalc2}`);
 
 const getSum = (num1, num2) => { return console.log(`Сумма чисел равна ${num1 + num2}`); };
 const getDif = (num1, num2) => {
-    if (num1 > num2) { return console.log(`Разность чисел равна ${num1 - num2}`);
-    } else { return console.log(`Разность чисел равна ${num2 - num1}`);} };
-const getDiv = (num1, num2) => { return console.log(`Деление чисел равно ${num1 / num2}`);};
-const getMult = (num1, num2) => { return console.log(`Произведение чисел равно ${num1 * num2}`);};
+    if (num1 > num2) {
+        return console.log(`Разность чисел равна ${num1 - num2}`);
+    } else { return console.log(`Разность чисел равна ${num2 - num1}`); }
+};
+const getDiv = (num1, num2) => { return console.log(`Деление чисел равно ${num1 / num2}`); };
+const getMult = (num1, num2) => { return console.log(`Произведение чисел равно ${num1 * num2}`); };
 getSum(foCalc1, foCalc2);
 getDif(foCalc1, foCalc2);
 getDiv(foCalc1, foCalc2);

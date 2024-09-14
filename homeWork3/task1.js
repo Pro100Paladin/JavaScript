@@ -5,7 +5,7 @@
 
 
 console.log('Задание 1.');
-const getCube = (number) => { return Math.pow(number, 3);};
+const getCube = (number) => { return Math.pow(number, 3); };
 
 console.log(`Два в кубе = ${getCube(2)}`);
 console.log(`Три в кубе = ${getCube(3)}`);
